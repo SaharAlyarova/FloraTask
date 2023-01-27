@@ -1,0 +1,240 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #25705C;
+    color: white;
+}
+ul{
+    display: flex;
+       
+        column-gap:20px;
+    li{
+        display: flex;
+        list-style: none;
+        column-gap: 10px;
+    }
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.imgdiv1{
+    background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/sl1-967x725.jpg");
+background-size: cover;
+width: 100%;
+height: 100vh;
+}
+.imgdiv2{
+    background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/sl7.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+.imgdiv3{
+    background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/sl4.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.backgroundSectionImage{
+    background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/background2.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.backgroundimg{
+    background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg");
+    background-size: cover;
+    width: 40%;
+    height: 80vh;
+}
+.backgroundSectionImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerImage{
+    background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/background2.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+}
+.imgmary{
+    width: 110px;
+    height: 60px;
+}
+.backroundImageEventsPricing{
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/background1.jpg");
+}
+
+
+Input{
+
+    border: 0;
+    text-decoration: underline;
+}
+.form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+    width: 50%;
+  }
+  
+  .form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  
+    &::placeholder {
+      color:#25705C ;
+    }
+  
+    // &:placeholder-shown ~ .form__label {
+    //   font-size: 1.3rem;
+    //   cursor: text;
+    //   top: 20px;
+    // }
+  }
+  
+  .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: gray;
+  }
+  
+  .form__field:focus {
+    ~ .form__label {
+      position: absolute;
+      top: 0;
+      display: block;
+      transition: 0.2s;
+      font-size: 1rem;
+      color: blue;
+      font-weight:700;    
+    }
+    padding-bottom: 6px;  
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, blue,white);
+    border-image-slice: 1;
+  }
+  .footerfourdiv{
+    display: flex;
+    // align-items: center;
+    justify-content: space-around;
+  }
+  .parag{
+    color:#25705C;
+
+  }
+  .parag:hover{
+color:black;
+text-decoration: underline;
+  }
+
+  .style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:#25705C
+  }
+  .threeDivContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5%;
+  }
+  .backroundImageEventsPricing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .ourTeam{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:#25705C
+  }
+
+  .imgDivOne,.imgDivTwo,.imgDivThree,.datass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#25705C;
+    text-align: center;
+  }
+//   .datass{
+//     width: 300px;
+//     height: 400px;
+//   }
+  .containerDatas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#25705C;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100%;
+    column-gap: 5%;
+    // height: 400px;
+  }
+  .ourTeamContainer{
+    background-color: white;
+  }
+  .dataheader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#25705C;
+    flex-direction: column;
+  }
+  .datass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#25705C;
+    flex-direction: column;
+  }
+  .border-red{
+    border: 2px solid red;
+
+  }
+  .add{
+    color:red;
+    font-size: 17px;
+    padding: 15px 65px;
+
+  }
+  .text{
+    // background-size: cover;
+    
+    width: 1200px;
+    height: 80vh;
+    background-image: url("https://img.freepik.com/free-vector/oops-404-error-with-broken-robot-concept-illustration_114360-5529.jpg?w=740&t=st=1674824310~exp=1674824910~hmac=07de8c9453d4e632907b8dcd78ee153119d7e928e3827c9ff040788c9adef02c");
+  // background-size: cover;
+  background-repeat: no-repeat;
+  }
+  .notFound{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
